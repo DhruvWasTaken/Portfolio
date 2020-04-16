@@ -1,0 +1,84 @@
+body {
+    
+	background: #C6FFDD;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #f7797d, #FBD786, #C6FFDD);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	position: relative;
+
+    font-family: Lato;
+}
+
+i{
+	color: white;
+	font-size: 25px;
+	padding-right: 2px;
+}
+
+#intro{
+	text-align: center;
+	padding-top: 18%;
+	padding-right: 75px;
+	font-weight: 700;
+	letter-spacing: 2px;
+	width: 100%;
+	height: auto;
+	font-family: 'Open Sans', sans-serif;
+	opacity: 0;
+	animation: 1s slidefade 1s forwards;
+	justify-content: center;
+}
+@keyframes slidefade{
+	100%{
+		opacity: 1;
+	}
+}
+ 
+#intro h1{
+	font-size: 65px;
+}
+
+#intro h2{
+	font-size: 45px	
+
+}
+#intro h3{
+	font-size: 30px;
+	margin: 0;
+	padding-top: 20px; 
+}
+#intro h4{
+	font-size: 25px;
+	padding-top: 5px;
+
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+	padding-left: 50px; 
+	color: white;
+    font-size: 20px ;
+    opacity: 0;
+	animation: 1s slidefade 0.5s forwards;
+}
+
+.navbar-brand{
+	font-size: 25px;
+	padding-left: 5px;
+	opacity: 0;
+	animation: 1s slidefade 0.5s forwards;
+}
+
+img{
+	max-width:100%; 
+    height:85vh; 
+    padding-top: 25px;
+	animation: 1s fadein 0.5s forwards;
+	opacity: 0;
+	padding-left: 20%;
+}
+
+@keyframes fadein {
+	100% {
+		opacity: 1;
+	}
+}
